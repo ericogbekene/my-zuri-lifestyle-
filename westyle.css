@@ -1,0 +1,181 @@
+* , *::before , *::after {
+    box-sizing : border-box ; 
+}
+
+body {
+    margin: 0 ; 
+}
+.left-side {
+    background-image: image(imageAssets/Poolshot.jpg) ;
+    width: 100% ;
+    margin: 0 auto ;
+    padding: 20px 0 ;
+    
+    
+}
+
+.left-side h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: coral;
+    letter-spacing: 1.5px;
+    margin: 10px ;
+    padding: 10px ;
+   
+
+}
+
+.left-side h2 {
+    color: gold;
+    line-height: 25px ;
+    font-size: 45px ;
+    font-family: sans-serif ;
+    
+}
+
+ .btn-hire .contact-btn {
+     color:coral;
+     background-color: white ;
+     border: solid brown ;
+     border-radius : 30px ;
+     font-size: 20px ;
+     
+ }
+
+ .btn-hire .contact-btn:hover {
+     color: gold ;
+     cursor : pointer ;
+ }
+
+ .right-side {
+     background-color:goldenrod ;
+     padding: 0;
+     display: flex ; 
+     align-content: center ; 
+     justify-content: center ;
+ }
+
+ .header-image {
+     display: flex ;
+     
+     justify-content: center ;
+ }
+
+ .menu {
+     background-color: goldenrod ;
+ }
+ .menu nav {
+
+ }
+
+ .menu nav ul {
+    list-style: none ;
+    margin : 0 10px ; 
+    padding: 0 ; 
+    text-align: center ;
+    border: solid brown ;
+ }
+
+ .menu nav ul li {
+     list-style: none;
+     text-decoration: none ;
+     display: inline;
+     font-family: 'Courier New';
+     background-color: white ;
+     font-size: 25px ;
+
+ }
+
+ .menu nav ul li a {
+     text-decoration: none ;
+     color: black ;
+ }
+
+ .menu nav ul li a:hover {
+     color: goldenrod ;
+ }
+
+ .content-block {
+     display: grid; 
+
+ }
+
+ .main {
+     background-color: brown ;
+ }
+ .main  h1 {
+     display: inline-block ; 
+     justify content : center ;
+     
+     align-self: left;
+     margin-top : 75px; 
+     margin  : 50px 50px ;
+     padding : 50px 50px ; 
+     font-size : 3.7em ;
+     font-weight : 100 ;
+     color : goldenrod ; 
+
+     
+
+     
+ }
+
+
+
+ .digital-links {
+
+    margin: 10px ;
+    padding: 10px 10px ; 
+    line-height: 10px ; 
+ }
+
+ .digital-links button  {
+
+    margin: auto ;
+    padding : 10px, 10px ; 
+    width: 1152px ; 
+    height: 76px;
+    display: block ;
+    font-size: 24px ;
+    list-style: none ;
+    text-decoration: none ;
+
+ }
+
+ .digital-links button a {
+
+    text-decoration: none ;
+    color: black ;
+ }
+    .profile-picture {
+        line-height: 10px ;
+        display: inline-block ;
+        margin : 50px ;
+        padding: 10px 10px ;
+        border : 4px solid rgba (200,200,200,0.4) ;
+        border-radius: 20 % ; 
+        transition : linear 0.25s ; 
+        height : 88px ;
+        width : 88px ; 
+        align-self: center ;
+        
+    }
+
+    .profile-picture img {
+        border-radius : 100% ;
+        display: flex;
+        justify-content: center ;
+        align-items : center ;
+    }
+
+
+ /*.profile-picture img {
+     display: flex ;
+     justify-content:center ;
+     align-items: center ; 
+     border: 10px 10px solid ; 
+     color: brown ; 
+     margin: auto ; */
+
+ }
+
