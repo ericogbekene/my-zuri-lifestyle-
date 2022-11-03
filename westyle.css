@@ -57,7 +57,7 @@ body {
 
  .header-image {
      display: flex ;
-     
+
      justify-content: center ;
  }
 
@@ -103,11 +103,23 @@ body {
  .main {
      background-color: brown ;
  }
+
+ .header-tag {
+display : flex ;
+justify-content: center ;
+justify-items: auto ;
+
+ }
+
+ .header-tag h1 {
+
+ }
+ 
  .main  h1 {
-     display: inline-block ; 
+     display: flex ; 
      justify content : center ;
+     ;
      
-     align-self: left;
      margin-top : 75px; 
      margin  : 50px 50px ;
      padding : 50px 50px ; 
@@ -158,7 +170,7 @@ body {
         height : 88px ;
         width : 88px ; 
         align-self: center ;
-        
+
     }
 
     .profile-picture img {
