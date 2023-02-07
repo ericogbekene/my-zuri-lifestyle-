@@ -20,10 +20,18 @@ function App() {
           Learn React
         </a>
         <h1> Are you there </h1>
+       </header>
+       <div className = "next">
+          <p> Next Line</p> 
+          <ul>
+            <li><a href = "#">  Home </a> </li>
+            <li>  About </li>
+            <li> Contact  </li>
+          </ul>
+          <p className = "main-line"> We are the Champions </p>
+        </div>
+       </div> 
 
-<div id = "root"></div>
-      </header>
-    </div>
 
      
   );
