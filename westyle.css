@@ -170,7 +170,8 @@ justify-items: auto ;
         transition : linear 0.25s ; 
         height : 88px ;
         width : 88px ; 
-        align-self: center ;
+        display : flex ;
+        align-items : center ;
 
     }
 
