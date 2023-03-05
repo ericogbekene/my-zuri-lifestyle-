@@ -22,6 +22,7 @@ body {
     padding: 25px 35px ;
     border-radius: 15px ;
     user-select: none;
+
 }
 
 #Display-area {
@@ -73,4 +74,8 @@ font-size: larger ;
     color: #000 ;
     background: #ffc652 ;
     font-weight: bold ; 
+}
+
+.num-btn:hover {
+    background-color : #282a3a ;
 }
