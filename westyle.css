@@ -9,27 +9,28 @@ body {
     background-image: image(imageAssets/Poolshot.jpg) ;
     width: 100% ;
     margin: 0 auto ;
-    padding: 20px 0 ;
+    padding: 2px 0 ;
     
     
 }
 
 .left-side h1 {
     font-family: 'Times New Roman';
-    font-size: 50px;
+    font-size: 30px;
     color: coral;
     letter-spacing: 1.5px;
-    margin: 10px ;
-    padding: 10px ;
+    margin: 1px ;
+    padding: 1px ;
    
 
 }
 
 .left-side h2 {
     color: gold;
-    line-height: 25px ;
-    font-size: 45px ;
+    line-height: 20px ;
+    font-size: 35px ;
     font-family: sans-serif ;
+
     
 }
 
@@ -49,10 +50,14 @@ body {
 
  .right-side {
      background-color:goldenrod ;
-     padding: 0;
+     margin: 70px auto 0;
      display: flex ; 
-     align-content: center ; 
+     /* align-content: center ; */ 
      justify-content: center ;
+     flex-wrap: wrap;
+     width: 80%;
+     max-width: 1300px;
+     
  }
 
  .header-image {
@@ -60,35 +65,49 @@ body {
 
      justify-content: center ;
  }
-
+/* styling for image section yet to be completed */
+ 
+.header-image img {
+    width: 50vw ;
+ }
+ 
  .menu {
      background-color: goldenrod ;
  }
  .menu nav {
-
+position: relative;
+padding: 20px;
+transition: 0.5s;
+border-radius: 50px;
  }
 
  .menu nav ul {
     list-style: none ;
-    margin : 0 10px ; 
+    width: 100%;
+    margin : 0 0px ; 
     padding: 0 ; 
     text-align: center ;
     border: solid brown ;
+    display: flex;
+    justify-content: space-between;
  }
 
  .menu nav ul li {
      list-style: none;
      text-decoration: none ;
+     text-transform: uppercase;
      display: inline;
      font-family: 'Courier New';
      background-color: white ;
      font-size: 25px ;
+     
 
  }
 
  .menu nav ul li a {
      text-decoration: none ;
      color: black ;
+    /* justify-content: space-between; */
  }
 
  .menu nav ul li a:hover {
@@ -96,7 +115,8 @@ body {
  }
 
  .content-block {
-     display: grid; 
+     display: flex; 
+     justify-content: space-between ;
 
  }
 
@@ -182,6 +202,21 @@ justify-items: auto ;
         align-items : center ;
     }
 
+    .contactform {
+        max-width: 400px;
+        margin: 1rem auto ;
+        border: 2px solid rgb(194, 116, 26) ;
+        padding: 1rem ;
+        display: block ;
+        justify-content: center;
+        font-size: 1.5 rem ;
+        
+    }
+
+    .contactform input {
+        width: 100% ;
+        
+    }
 
  /*.profile-picture img {
      display: flex ;
